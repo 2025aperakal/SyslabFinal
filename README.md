@@ -1,4 +1,7 @@
-# SyslabFinal
+# GlioGrade: Using 3D Convolutional Neural Networks to Type and Grade Gliomas within Human MRI Scans
+
+
+
 Github Repo for Final Syslab Project
 
 Abstract:
