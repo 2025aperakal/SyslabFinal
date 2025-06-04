@@ -1,6 +1,10 @@
 # SyslabFinal
 Github Repo for Final Syslab Project
 
+Abstract:
+Gliomas are the most common malignant brain tumors, making up the vast majority of deaths related to brain tumors. Accurate diagnosis requires identifying both the glioma type and grade. Most machine learning models use 2D Convolutional Neural Networks (CNNs), which lack the spatial awareness needed to process full 3D MRI volumes. This project proposes "GlioGrade," a novel, locally hosted tool that uses 3D CNNs to classify glioma types and grades using the UCSF-PDGM dataset. Our models achieved 84.57% and 83.84% accuracy for typing and grading, respectively. The project integrated preprocessing techniques like skull stripping and N4 bias correction and evaluated multiple CNN architectures, including geodesic and pretrained models. The system was deployed via a user-friendly web interface for clinical consideration.
+
+
 The Zip Folder has all the files:
 
 app.py
@@ -11,4 +15,14 @@ upload.html
 base.html
 results.html
 
-This Github has the Poster, Presentation, and Final Report
+
+This Github has the Poster, Presentation, and Final Report. (ML Models Size Issue)
+
+How to Run Code:
+
+1. Download Zip File
+2. Extract Zip File
+3. Open App.py in VS Code
+4. Download any needed libraries
+5. run app.py
+6. open website
